@@ -1,0 +1,8 @@
+<stack class="container" onclick="click">
+    <image id="bg0" style="width: 2393px;height: 28px;left: {{bg[0].x}};top: 368px;" src="/common/bg.png"></image>
+    <image id="bg1" style="width: 2393px;height: 28px;left: {{bg[1].x}};top: 368px;" src="/common/bg.png"></image>
+    <image id="cactus" style="left: {{cactus.x}}; top:300 " class="cactus" src="/common/cactus.png"></image>
+    <image id="dino" style="left: {{dino.x}}; top: {{dino.y}};" class="dino" src="/common/{{ dino.frame }}.png"></image>
+    <text style="color: black;width:300px;height:50px;top: 100px;left: 80px;">{{score.toFixed(2)}} km</text>
+    <image id="gameover" style="width:383px;height:28px;left:30; top:200;display: {{game_over?'block':'none'}};" src="/common/gameover.png"></image>
+</stack>

@@ -1,0 +1,20 @@
+.container {
+    width: 454px;
+    height: 454px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.pic{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.dino{
+    width: 90px;
+    height: 96px;
+}
+.cactus{
+    width: 50px;
+    height: 100px;
+}
